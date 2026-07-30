@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of Levit / Alwayz hosts
+note: >-
+  No /.well-known/ discovery document was served by any Levit or Alwayz host. Recorded as a
+  negative result. alwayz.co is WordPress and answers 403 for /.well-known/ paths; the Alwayz
+  Seller Center is a single-page app whose catch-all route returns the HTML shell with status
+  200 for any path, so its apparent 200 responses are NOT real documents and are recorded as
+  such. No WellKnown or SecurityTxt pointer is wired into apis.yml because nothing was found.
+hosts:
+- host: https://alwayz.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://www.ilevit.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+- host: https://alwayzseller.ilevit.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    valid: false
+    reason: SPA catch-all returned the application HTML shell, not an RFC 9116 document

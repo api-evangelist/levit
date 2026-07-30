@@ -1,0 +1,39 @@
+# Levit
+
+> Levit Inc. (레브잇) is a software company in Seoul, South Korea, best known for Alwayz
+> (올웨이즈) — a mobile-first team-purchase commerce app launched in July 2021 where shoppers
+> group together with other buyers to unlock prices below normal retail. Levit also launched
+> Ping in March 2021. Levit publishes no public developer API program, API documentation,
+> developer portal, or SDKs as of 2026-07-19.
+
+## Company
+
+- [Levit Inc. corporate site](https://www.ilevit.com/): Company overview, products, and contact.
+- [Careers (레브잇 채용)](http://team.alwayz.co): Levit hiring site.
+
+## Products
+
+- [Alwayz (올웨이즈)](https://alwayz.co): Team-purchase commerce app — shoppers buy together for lower prices.
+- [Alwayz app download](https://alwayzshop.ilevit.com/app): iOS and Android app install links.
+- [Alwayz Seller Center](https://alwayzseller.ilevit.com/): Merchant sign-in and seller onboarding for the Alwayz marketplace.
+- Ping: Earlier Levit product, launched March 2021.
+
+## Content
+
+- [Alwayz blog](https://alwayz.co/blog/): Seller-facing commerce guidance — product detail pages, seasonal sales strategy, and seller case studies.
+
+## Policies
+
+- [Alwayz privacy policy](https://privacy.ilevit.com/): Privacy policy for the Alwayz service.
+- [Levit terms of service](https://www.notion.so/Terms-of-Service-a7f976000e58435b8fba8e9019fd5050): Corporate terms of use.
+- [Levit privacy policy](https://www.notion.so/Privacy-Policy-8d90b8d154c6412dbd8d7241dfc1c55c): Corporate privacy policy.
+
+## API Evangelist
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/levit/refs/heads/main/apis.yml): Machine-readable index of this profile.
+
+## Notes
+
+- No public API: probes of api.*, docs.*, developers.*, open.* and openapi.* on alwayz.co and
+  ilevit.com returned no developer surface; no /.well-known/ discovery documents were served;
+  no first-party client libraries were found on npm or PyPI.
